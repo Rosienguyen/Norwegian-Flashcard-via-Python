@@ -33,7 +33,10 @@ else:
 #------------------------ Generating a Norsk word ----------
 index = random.choice(range(len(to_learn)))
 def next_card():
+    
     global current_card, index
+    index = random.choice(range(len(to_learn)))
+
     current_card = to_learn[index]
 
     # choose random language
@@ -59,7 +62,7 @@ def next_card():
 #     canvas.itemconfig(card_background, image=card_front_img)
 
 
-def flip_to_no():
+def flip_to_en():
     global index
 
     canvas.itemconfig(card_title, text = f"EN_{index}", fill = "black")
@@ -67,7 +70,7 @@ def flip_to_no():
     canvas.itemconfig(card_background, image=card_back_img)
     # canvas.itemconfig()
 
-def flip_to_en():
+def flip_to_no():
     global index 
     canvas.itemconfig(card_title, text = f"NO_{index}", fill = "black")
     canvas.itemconfig(card_word, text=current_card["NO"], fill = "black")
