@@ -8,165 +8,145 @@
 6,"Eirik har hjulpet dem med bagasjen, og nå sitter han og spiser middag på terrassen. ","Eirik has helped them with his luggage, and now he sits and has dinner on the terrace."
 7,"Hotellsjefen, Latisha, kommer og hilser på Eirik. ","The hotel manager, Latisha, comes and greets Eirik."
 8,"Hun spør om han har hatt en fin tur, og om været har vært bra.",She asks if he has had a nice trip and if the weather has been good.
-9,"Latisha: Hei, Eirik. Velkommen tilbake. Hyggelig å se deg.","Latisha: Hi, Eirik.Welcome back.Nice to see you."
-10,"Eirik: Takk, og i like måte.","Eirik: Thank you, and equally."
-11,Har du lyst på et stykke av Øyvinds eplekake til dessert?,Do you want a piece of Øyvind's apple cake for dessert?
-12,"Takk skal du ha, men nå er jeg forsynt.","Thank you, but now I'm provided."
-13,Middagen var veldig god.,The dinner was very good.
-14,"Du, jeg har hørt at det var noe bråk med to i gruppa mi?","You, I've heard there was something trouble with two in my group?"
-15,"Latisha: Ja, det kan du si! ","Latisha: Yes, you can say!"
+9,"Hei, Eirik. Velkommen tilbake. ","Hi, Eirik.Welcome back."
+10,Hyggelig å se deg. ,Nice to see you.
+11,"Takk, og i like måte.","Thanks, likewise."
+12,Har du lyst på et stykke av Øyvinds eplekake til dessert?,Do you want a piece of Øyvind's apple cake for dessert?
+13,"Takk skal du ha, men nå er jeg forsynt. ","Thank you, but now I'm provided."
+14,Middagen var veldig god.,The dinner was very good.
+15,"Du, jeg har hørt at det var noe bråk med to i gruppa mi? Ja, det kan du si! ","You, I've heard there was something trouble with two in my group?Yes, you can say!"
 16,Et ektepar kranglet og forlangte to rom i stedet for ett.,A married couple quarreled and demanded two rooms instead of one.
-17,"Huff ja, de har kranglet en del på turen.","Huff yes, they have quarreled a lot on the trip."
+17,"Huff ja, de har kranglet en del på turen. ","Huff yes, they have quarreled a lot on the trip."
 18,Jeg beklager at du har fått ekstra arbeid.,I'm sorry you've got extra work.
-19,Det er ikke din feil.,It's not your fault.
-20,Det er egentlig fullt på hotellet. Men jeg har funnet en løsning.,It's really full of the hotel.But I found a solution.
+19,Det er ikke din feil. Det er egentlig fullt på hotellet. ,It's not your fault.It's really full of the hotel.
+20,Men jeg har funnet en løsning. ,But I found a solution.
 21,Har det vært en fin tur?,Has it been a nice trip?
-22,"Ja, takk. Det har gått bra. Turistene har fisket,","Yes please.It's been fine.The tourists have been fishing,"
-23,og de har sett midnattssola.,And they have seen the midnight sun.
-24,Har dere hatt bra vær?,Have you had good weather?
+22,"Ja, takk. Det har gått bra. ",Yes please.It's been fine.
+23,"Turistene har fisket, og de har sett midnattssola.",The tourists have been fishing and they have seen the midnight sun.
+24,Har dere hatt bra vær? ,Have you had good weather?
 25,Eirik spiser middag på hotellet.,Eirik has dinner at the hotel.
-26,"Stort sett. Det har vært litt tåke og regn, men ellers bra.","Mostly.It has been some fog and rain, but otherwise good."
-27,"Jeg har snakket med noen av gjestene, ","I've talked to some of the guests,"
-28,og de sier at de har sett mye fin natur.,And they say they have seen a lot of nice nature.
+26,Stort sett. ,Mostly.
+27,"Det har vært litt tåke og regn, men ellers bra.","It has been some fog and rain, but otherwise good."
+28,"Jeg har snakket med noen av gjestene, og de sier at de har sett mye fin natur.","I've talked to some of the guests, and they say they've seen a lot of nice scenery."
 29,De har iallfall fotografert mye fin natur.,At least they have photographed a lot of nice nature.
 30,De snur ofte ryggen til utsikten og tar bilde av seg selv. ,They often turn their backs on the view and take a picture of themselves.
 31,Det ser rart ut.,It looks strange.
 32,HVA SER DU?,WHAT DO YOU SEE?
 33,Hva ser dere på tegningen?,What do you see on the drawing?
-34,"et fjell, ","a mountain,"
-35,"en fjord, ","a fjord,"
-36,"ei elv, ","a river,"
-37,"en foss, ","a waterfall,"
-38,"en sjo, ","a sea,"
-39,"ei bro, ","a bridge,"
-40,"et grantre, ","a fir tree,"
-41,"et bjerketre,","a birch tree,"
-42,"el ferge,","El ferry,"
-43,"et skip, ","a ship,"
-44,"el brygge, ","El brew,"
-45,"en lastebil, ","a truck,"
-46,"en traktor, ","a tractor,"
-47,"en buss, ","a bus,"
-48,"et fly, ","a plane,"
-49,"et tog, ","a train,"
-50,"en sykkel, ","a bike,"
+34,et fjell ,a mountain
+35,en fjord ,a fjord
+36,ei elv ,a river
+37,en foss ,a waterfall
+38,en sjo ,a sea
+39,ei bro ,a bridge
+40,et grantre ,a fir tree
+41,et bjerketre,a birch tree
+42,el ferge,El ferry
+43,et skip ,a ship
+44,el brygge ,electricity
+45,en lastebil ,a truck
+46,en traktor ,a tractor
+47,en buss ,a bus
+48,et fly ,a plane
+49,et tog ,a train
+50,en sykkel ,a bike
 51,en sjåfør,one driver
-52,"en bonde, ","a farmer,"
-53,"en fisker, ","a fisherman,"
-54,en turist.,a tourist.
+52,en bonde ,a farmer
+53,en fisker ,a fisherman
+54,en turist,a tourist
 55,4) EIRIK ER BUSSJÅFØR,4) Eirik is bus driver
 56,Bianca er på Solvåg hotell. ,Bianca is at Solvåg Hotel.
-57,"Hun hilser på Eirik, ","She greets Eirik,"
-58,og spør om hun kan intervjue ham.,And ask if she can interview him.
-59,"Jeg er journalist i Solvåg avis, ","I am a journalist in Solvåg Avis,"
-60,og nå skriver jeg en reportasje om hotellet.,And now I write a report about the hotel.
-61,"Jeg har snakket med mange ansatte,","I have talked to many employees,"
-62,"og nå lurer jeg på om jeg kan snakke litt med deg, også?","And now I wonder if I can talk to you a little, too?"
-63,Det går bra. Slå deg ned.,It goes well.Sit down.
-64,Skal jeg bestille et glass øl til deg?,Should I order a glass of beer for you?
-65,"Bare vann til meg, takk.","Just water for me, thank you."
-66,Hvor lenge har du vært bussjåfør?,How long have you been a bus driver?
-67,I nesten 40 år.,For almost 40 years.
-68,Før jobbet jeg som sjåfør i byen.,"Before, I worked as a driver in the city."
-69,Nå har jeg kjørt turistbuss i ti år.,Now I have been running a tourist bus for ten years.
-70,Hvorfor byttet du jobb?,Why did you change jobs?
-71,I byen ble jeg ganske sliten. ,In town I got pretty tired.
-72,"Det var mye trafikk, og folk var stresset. ",There was a lot of traffic and people were stressed.
-73,Nå kan jeg kjøre mil etter mil i fin natur.,Now I can drive miles after miles in fine nature.
-74,"Landskapet og lyset forandrer seg etter vær og årstider, ","The landscape and light change after weather and seasons,"
-75,og det er alltid noe fint å se på.,And there is always something nice to look at.
-76,Hvor lange turer har du?,How long trips do you have?
-77,Vanligvis ei uke. ,Usually a week.
-78,Vi har flere ulike ukesturer på programmet. ,We have several different week trips on the program.
-79,Vi overnatter ofte her på Solvåg.,We often spend the night here at Solvåg.
-80,Her er det god service og god mat.,Here there is good service and good food.
-81,Hva med turistene? Hvor kommer de fra?,What about the tourists?Where are they from?
-82,De kommer fra nesten hele verden. ,They come from almost all over the world.
-83,Mange vil se fjordene og midnattssola.,Many want to see the fjords and the midnight sun.
-84,Om vinteren kommer mange for å se nordlyset.,"In winter, many come to see the Northern Lights."
-85,Hva er viktig for å gjøre en god jobb?,What is important to do a good job?
-86,En bussjåfør må være glad i folk. ,A bus driver must be fond of people.
-87,Mange turister vil gjerne prate. ,Many tourists would like to talk.
-88,Ofte spør de om steder og ting vi ser på turen. ,Often they ask about places and things we see on the trip.
-89,Og selvfølgelig må du være en veldig god sjåfør. ,And of course you have to be a very good driver.
-90,Norske veier er ikke alltid så gode. ,Norwegian roads are not always so good.
-91,Og været kan være dårlig.,And the weather can be bad.
-92,Er det noen problemer i jobben?,Are there any problems at work?
-93,Det er litt tungt for ryggen. ,It's a little heavy for the back.
-94,"Jeg må løfte tung bagasje ut og inn av bussen hver dag, ","I have to lift heavy luggage in and out of the bus every day,"
-95,og jeg begynner å bli gammel.,And I'm getting old.
-96,Har du noen tanker om framtida?,Do you have any thoughts on the future?
-97,Nå snakker de mye om førerløse busser - busser uten sjåfør. ,Now they talk a lot about driverless buses - buses without a driver.
-98,Hvordan skal det gå på norske veier?,How is it going on Norwegian roads?
-99,Det skjønner jeg ikke.,I don't understand that.
-100,Men om et år blir jeg heldigvis pensjonist.,But in a year I will fortunately retire.
-101,Kan jeg ta et bilde av deg? ,Can I take a picture of you?
-102,Jeg vil gjerne ha et bilde i avisen.,I would like a picture in the newspaper.
-103,"Ja, gjerne, men vent et øyeblikk. ","Yes, preferably, but wait a moment."
-104,Jeg må bare gre håret.,I just have to comb my hair.
-105,"Sånn, nå er jeg klar.","So, now I'm ready."
-106,Hvor lenge har dere vært i Norge?,How long have you been in Norway?
-107,Hvor har dere bodd?,Where did you live?
-108,Hva har dere sett her i landet?,What have you seen in this country?
-109,Hva har dere gjort?,What did you do?
-110,TYPISK NORSK?,TYPICAL NORWEGIAN?
-111,I norskklassen snakker de om livet i Norge. ,In the Norwegian class they talk about life in Norway.
-112,Noen av elevene har vært i Norge i mange år. ,Some of the students have been in Norway for many years.
-113,Noen har vært her i omtrent et år. ,Some have been here for about a year.
-114,Håkon lurer på om elevene har blitt overrasket over noe her i landet.,Håkon wonders if the students have been surprised by something in this country.
-115,"Håkon: Nå har dere vært i Norge en stund, ","Håkon: Now you have been in Norway for a while,"
-116,og jeg lurer på om noe har overrasket dere.,And I wonder if something has surprised you.
-117,Er det noe spesielt dere har lagt merke til?,Is there anything special you noticed?
-118,Sofia: Naturen. Det er mye natur her. Og god plass.,Sofia: Nature.There is a lot of nature here.And plenty of space.
-119,Karim: Nordmenn liker å være ute i naturen.,Karim: Norwegians like to be out in nature.
-120,Det er typisk norsk å gå på tur.,It is typically Norwegian to go for a walk.
-121,Samira: Og mange går på tur med hund. ,Samira: And many go for a dog.
-122,Jeg har sett mange hunder her.,I've seen many dogs here.
-123,"Men jeg har noen norske venner, og de går ikke på tur. ","But I have some Norwegian friends, and they don't go for a walk."
-124,De vil sove på søndager. Alle nordmenn er ikke,They will sleep on Sundays.All Norwegians are not
-125,"like. De er forskjellige, akkurat som andre folk.","like.They are different, just like other people."
-126,Jeg er overrasket over at barna er ute alene.,I am surprised that the kids are out alone.
-127,"Utenfor blokka vår sykler barna rundt, ","Outside our block cycling the kids around,"
-128,eller de står på rullebrett. ,Or they are on a skateboard.
-129,Foreldrene stoler på at det er trygt.,The parents trust that it is safe.
-130,"Ja, folk stoler på hverandre.","Yes, people trust each other."
-131,Nordmenn stoler til og med på politiet! ,Norwegians even trust the police!
-132,Det er fint. Det er fritt her. ,It is nice.It's free here.
-133,To menn kan være kjærester og gå hånd i hånd på gata. ,Two men can be boyfriends and go hand in hand on the street.
-134,Det har jeg aldri sett før. ,I've never seen that before.
-135,Det er litt rart for meg. ,It's a bit strange for me.
-136,Hjemme er det forbudt.,At home it is prohibited.
-137,Jeg synes det er mye kjedelig mat i butikkene.,I think there is a lot of boring food in the stores.
-138,Nordmenn tror at Grandiosa er ekte pizza!,Norwegians think Grandiosa is real pizza!
-139,Dessuten er folk ofte stille. ,"Besides, people are often quiet."
-140,Hjemme prater vi mye mer.,At home we talk much more.
-141,Håkon: Takk skal dere ha. ,Håkon: Thank you.
-142,Dere har fortalt mye interessant.,You've told a lot of interesting.
-143,"Sofia: Og forresten, en ting til: Nordmenn takker mye.","Sofia: And by the way, one more thing: Norwegians thank you a lot."
-144,Dere sier Ja takk! og Nei takk! ,You say yes please!And no thanks!
-145,og Takk for maten! og Takk for sist!,And thanks for the food!Thanks for last time!
-146,Det har du rett i.,You are right.
-147,"Nå er timen slutt, og da sier jeg Takk for i dag!","Now the hour is over, and then I say thank you for today!"
-148,Takk for i dag!,Thank you for today!
-149,Vi ses onsdag. Ha det bra så lenge.,See you Wednesday.Goodbye.
-150,"Norge har ca. 5,3 millioner innbyggere, ","Norway has approx.5.3 million inhabitants,"
-151,og landet er nesten 1800 km langt.,And the country is almost 1800 km long.
-152,Hovedstad: Oslo med nesten 700 000 innbyggere,"Capital: Oslo with nearly 700,000 inhabitants"
-153,Andre store byer:,Other big cities:
-154,"Bergen, Trondheim, Stavanger, Kristiansand og Drammen","Bergen, Trondheim, Stavanger, Kristiansand and Drammen"
-155,Store deler av Norge er fjellområder.,Large parts of Norway are mountain areas.
-156,"38% er dekket av skog, ","38% are covered by forest,"
-157,og ca. 5 % er innsjøer og elver.,And approx.5 % are lakes and rivers.
-158,Bare 3% er dyrket mark.,Only 3% are cultivated land.
-159,"Landet har grenser til Sverige, Finland og Russland.","The country has borders on Sweden, Finland and Russia."
-160,Se kart foran i boka.,See map in the front of the book.
-161,% = prosent,% = percent
-162,1 mil = 10 kilometer,1 mile = 10 kilometers
-163,%= prosent,%= percent
-164,VELFERDSSTAT,Welfare
-165,Norge er en velferdsstat.,Norway is a welfare state.
-166,Staten og kommunene,The state and municipalities
-167,har ansvar for å sikre alle innbyggerne helsetjenesteog utdanning. ,is responsible for ensuring all the inhabitants health service and education.
-168,Alle har også rett til hjelp nånde trenger det.,Everyone also has the right to help it.
-169,Pengene til dette kommer fra skatter og avgifter. ,The money for this comes from taxes.
-170,Velferdsstaten er avhengig av at vi arbeider og betaler skatt.,The welfare state depends on us working and paying taxes.
+57,"Hun hilser på Eirik, og spør om hun kan intervjue ham.",She greets Eirik and asks if she can interview him.
+58,"Jeg er journalist i Solvåg avis, og nå skriver jeg en reportasje om hotellet.","I am a journalist in Solvåg Avis, and now I write a report on the hotel."
+59,"Jeg har snakket med mange ansatte, og nå lurer jeg på om jeg kan snakke litt med deg, også?","I have talked to many employees, and now I wonder if I can talk to you, too?"
+60,Det går bra. Slå deg ned. ,It goes well.Sit down.
+61,Skal jeg bestille et glass øl til deg?,Should I order a glass of beer for you?
+62,"Bare vann til meg, takk. ","Just water for me, thank you."
+63,Hvor lenge har du vært bussjåfør?,How long have you been a bus driver?
+64,I nesten 40 år. Før jobbet jeg som sjåfør i byen.,"For almost 40 years.Before, I worked as a driver in the city."
+65,Nå har jeg kjørt turistbuss i ti år. ,Now I have been running a tourist bus for ten years.
+66,Hvorfor byttet du jobb?,Why did you change jobs?
+67,I byen ble jeg ganske sliten. ,In town I got pretty tired.
+68,"Det var mye trafikk, og folk var stresset. ",There was a lot of traffic and people were stressed.
+69,Nå kan jeg kjøre mil etter mil i fin natur.,Now I can drive miles after miles in fine nature.
+70,"Landskapet og lyset forandrer seg etter vær og årstider, og det er alltid noe fint å se på.","The landscape and light change according to weather and seasons, and there is always something nice to look at."
+71,Hvor lange turer har du? Vanligvis ei uke. ,How long trips do you have?Usually a week.
+72,Vi har flere ulike ukesturer på programmet. ,We have several different week trips on the program.
+73,Vi overnatter ofte her på Solvåg.,We often spend the night here at Solvåg.
+74,Her er det god service og god mat. ,Here there is good service and good food.
+75,Hva med turistene? Hvor kommer de fra?,What about the tourists?Where are they from?
+76,De kommer fra nesten hele verden. ,They come from almost all over the world.
+77,Mange vil se fjordene og midnattssola.,Many want to see the fjords and the midnight sun.
+78,Om vinteren kommer mange for å se nordlyset. ,"In winter, many come to see the Northern Lights."
+79,Hva er viktig for å gjøre en god jobb?,What is important to do a good job?
+80,En bussjåfør må være glad i folk. ,A bus driver must be fond of people.
+81,Mange turister vil gjerne prate. ,Many tourists would like to talk.
+82,Ofte spør de om steder og ting vi ser på turen. ,Often they ask about places and things we see on the trip.
+83,Og selvfølgelig må du være en veldig god sjåfør. ,And of course you have to be a very good driver.
+84,Norske veier er ikke alltid så gode. Og været kan være dårlig.,Norwegian roads are not always so good.And the weather can be bad.
+85,Er det noen problemer i jobben? ,Are there any problems at work?
+86,Det er litt tungt for ryggen. ,It's a little heavy for the back.
+87,"Jeg må løfte tung bagasje ut og inn av bussen hver dag, og jeg begynner å bli gammel.","I have to lift heavy luggage in and out of the bus every day, and I'm starting to grow old."
+88,Har du noen tanker om framtida? ,Do you have any thoughts on the future?
+89,Nå snakker de mye om førerløse busser - busser uten sjåfør. ,Now they talk a lot about driverless buses - buses without a driver.
+90,Hvordan skal det gå på norske veier? Det skjønner jeg ikke.,How is it going on Norwegian roads?I don't understand that.
+91,Men om et år blir jeg heldigvis pensjonist. ,But in a year I will fortunately retire.
+92,Kan jeg ta et bilde av deg? ,Can I take a picture of you?
+93,Jeg vil gjerne ha et bilde i avisen. ,I would like a picture in the newspaper.
+94,"Ja, gjerne, men vent et øyeblikk. ","Yes, preferably, but wait a moment."
+95,"Jeg må bare gre håret. Sånn, nå er jeg klar.","I just have to comb my hair.So, now I'm ready."
+96,Hvor lenge har dere vært i Norge?,How long have you been in Norway?
+97,Hvor har dere bodd?,Where did you live?
+98,Hva har dere sett her i landet?,What have you seen in this country?
+99,Hva har dere gjort?,What did you do?
+100,TYPISK NORSK?,TYPICAL NORWEGIAN?
+101,I norskklassen snakker de om livet i Norge. ,In the Norwegian class they talk about life in Norway.
+102,Noen av elevene har vært i Norge i mange år. ,Some of the students have been in Norway for many years.
+103,Noen har vært her i omtrent et år. ,Some have been here for about a year.
+104,Håkon lurer på om elevene har blitt overrasket over noe her i landet.,Håkon wonders if the students have been surprised by something in this country.
+105,"Nå har dere vært i Norge en stund, og jeg lurer på om noe har overrasket dere.","Now you have been in Norway for a while, and I wonder if something has surprised you."
+106,Er det noe spesielt dere har lagt merke til? ,Is there anything special you noticed?
+107,Naturen. Det er mye natur her. Og god plass.,Nature.There is a lot of nature here.And plenty of space.
+108,Nordmenn liker å være ute i naturen. ,Norwegians like to be out in nature.
+109,Det er typisk norsk å gå på tur.,It is typically Norwegian to go for a walk.
+110,Og mange går på tur med hund. ,And many go for a dog.
+111,Jeg har sett mange hunder her.,I've seen many dogs here.
+112,"Men jeg har noen norske venner, og de går ikke på tur. De vil sove på søndager. ","But I have some Norwegian friends, and they don't go for a walk.They will sleep on Sundays."
+113,Alle nordmenn er ikke like. ,All Norwegians are not the same.
+114,"De er forskjellige, akkurat som andre folk.","They are different, just like other people."
+115,Jeg er overrasket over at barna er ute alene.,I am surprised that the kids are out alone.
+116,"Utenfor blokka vår sykler barna rundt, eller de står på rullebrett. ","Outside our block, the kids cycle around, or they are on a skateboard."
+117,Foreldrene stoler på at det er trygt. ,The parents trust that it is safe.
+118,"Ja, folk stoler på hverandre.","Yes, people trust each other."
+119,Nordmenn stoler til og med på politiet! ,Norwegians even trust the police!
+120,Det er fint. Det er fritt her. ,It is nice.It's free here.
+121,To menn kan være kjærester og gå hånd i hånd på gata. ,Two men can be boyfriends and go hand in hand on the street.
+122,Det har jeg aldri sett før. ,I've never seen that before.
+123,Det er litt rart for meg. ,It's a bit strange for me.
+124,Hjemme er det forbudt. ,At home it is prohibited.
+125,Jeg synes det er mye kjedelig mat i butikkene.,I think there is a lot of boring food in the stores.
+126,Nordmenn tror at Grandiosa er ekte pizza! ,Norwegians think Grandiosa is real pizza!
+127,Dessuten er folk ofte stille. ,"Besides, people are often quiet."
+128,Hjemme prater vi mye mer. ,At home we talk much more.
+129,Takk skal dere ha. ,Thank you.
+130,Dere har fortalt mye interessant. ,You've told a lot of interesting.
+131,"Og forresten, en ting til: Nordmenn takker mye.","And by the way, one more thing: Norwegians thank you a lot."
+132,Dere sier Ja takk! og Nei takk! og Takk for maten! og Takk for sist!,You say yes please!And no thanks!And thanks for the food!Thanks for last time!
+133,Det har du rett i. ,You are right.
+134,"Nå er timen slutt, og da sier jeg Takk for i dag! Takk for i dag!","Now the hour is over, and then I say thank you for today!Thank you for today!"
+135,Vi ses onsdag. Ha det bra så lenge. ,See you Wednesday.Goodbye.
+136,"Norge har ca. 5,3 millioner innbyggere, og landet er nesten 1800 km langt.","Norway has approx.5.3 million inhabitants, and the country is almost 1800 km long."
+137,Hovedstad: Oslo med nesten 700 000 innbyggere,"Capital: Oslo with nearly 700,000 inhabitants"
+138,"Andre store byer: Bergen, Trondheim, Stavanger, Kristiansand og Drammen","Other big cities: Bergen, Trondheim, Stavanger, Kristiansand and Drammen"
+139,Store deler av Norge er fjellområder.,Large parts of Norway are mountain areas.
+140,"38% er dekket av skog, og ca. 5 % er innsjøer og elver. Bare 3% er dyrket mark.","38% are covered with forests, and approx.5 % are lakes and rivers.Only 3% are cultivated land."
+141,"Landet har grenser til Sverige, Finland og Russland. Se kart foran i boka.","The country has borders on Sweden, Finland and Russia.See map in the front of the book."
+142,% = prosent,% = percent
+143,1 mil = 10 kilometer,1 mile = 10 kilometers
+144,%= prosent,%= percent
+145,VELFERDSSTAT,Welfare
+146,Norge er en velferdsstat.,Norway is a welfare state.
+147,Staten og kommunene har ansvar for å sikre alle innbyggerne helsetjenesteog utdanning. ,The state and municipalities are responsible for ensuring all the inhabitants health service and education.
+148,Alle har også rett til hjelp nånde trenger det.,Everyone also has the right to help it.
+149,Pengene til dette kommer fra skatter og avgifter. ,The money for this comes from taxes.
+150,Velferdsstaten er avhengig av at vi arbeider og betaler skatt.,The welfare state depends on us working and paying taxes.
