@@ -10,7 +10,7 @@ current_card = {}
 # lesson = random.choice(range(2,17))
 
 # if you like to have it selected, you should use this code
-lesson = 11 
+lesson = input()
 
 
 try: # try running this line of code
@@ -67,14 +67,14 @@ def flip_to_en():
 
     canvas.itemconfig(card_title, text = f"EN_{index}", fill = "black")
     canvas.itemconfig(card_word, text=current_card["EN"], fill = "black")
-    canvas.itemconfig(card_background, image=card_back_img)
+    canvas.itemconfig(card_background, image=card_front_img)
     # canvas.itemconfig()
 
 def flip_to_no():
     global index 
     canvas.itemconfig(card_title, text = f"NO_{index}", fill = "black")
     canvas.itemconfig(card_word, text=current_card["NO"], fill = "black")
-    canvas.itemconfig(card_background, image=card_back_img)
+    canvas.itemconfig(card_background, image=card_front_img)
     # canvas.itemconfig()
 
 def is_known():
@@ -98,7 +98,7 @@ card_background = canvas.create_image(400, 263, image=card_front_img)
 card_title = canvas.create_text(400, 150, text="Title", font=("Ariel", 20, "italic"))
 # Positions are related to canvas so 400 will be halfway in width
 canvas.config(bg=BACKGROUND_COLOR, highlightthickness=0)
-card_word = canvas.create_text(400, 263, text="Word", font=("Ariel", 20, "bold"), tags="word")
+card_word = canvas.create_text(400, 263, text="Word", font=("Ariel", 20, "bold"), tags="word", width=700, justify="center")
 
 # canvas should go in the middle
 canvas.grid(row=0, column=0, columnspan=4)
