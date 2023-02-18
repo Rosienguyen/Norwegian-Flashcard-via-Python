@@ -20,7 +20,7 @@ except FileNotFoundError:
     # the words_to_learn.csv file might not be present
     # and FileNotFoundError might pop up
     
-    original_data = pd.read_csv(f"output/lesson{lesson}.csv")
+    original_data = pd.read_csv(f"pavei/lesson{lesson}.csv")
     print(original_data)
     to_learn = original_data.to_dict(orient="records")
 else:
@@ -81,7 +81,7 @@ def is_known():
     to_learn.remove(current_card)
     print(len(to_learn))
     data = pd.DataFrame(to_learn)
-    data.to_csv("output/words_to_learn.csv", index=False)
+    data.to_csv("pavei/words_to_learn.csv", index=False)
     # index = false discrads the index numbers
     next_card()
 #------------------------ FlashCard UI Setup -------------------------------
@@ -95,7 +95,7 @@ canvas = Canvas(width=800, height=526)
 card_front_img = PhotoImage(file="./images/card_front.png")
 card_back_img = PhotoImage(file="./images/card_back.png")
 card_background = canvas.create_image(400, 263, image=card_front_img)
-card_title = canvas.create_text(400, 150, text="Title", font=("Ariel", 20, "italic"))
+card_title = canvas.create_text(400, 80, text="Title", font=("Ariel", 20, "italic"))
 # Positions are related to canvas so 400 will be halfway in width
 canvas.config(bg=BACKGROUND_COLOR, highlightthickness=0)
 card_word = canvas.create_text(400, 263, text="Word", font=("Ariel", 20, "bold"), tags="word", width=700, justify="center")
