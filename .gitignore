@@ -163,8 +163,8 @@ cython_debug/
 .vscode/
 local.*
 *.csv.gz
-*.parquet
 .justfile
 my*
+my.*
 *.pkz
 .DS_Store

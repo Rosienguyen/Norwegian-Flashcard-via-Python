@@ -1,4 +1,8 @@
 import pandas as pd
+from io import BytesIO
+from pydub import AudioSegment
+from pydub.playback import play
+from gtts import gTTS
 
 BACKGROUND_COLOR = "#B1DDC6"
 import random
@@ -16,25 +20,19 @@ lesson = input()
 try: # try running this line of code
     data = pd.read_csv("words_to_learn.csv")
 except FileNotFoundError:
-    # If for the first time we are running it
-    # the words_to_learn.csv file might not be present
-    # and FileNotFoundError might pop up
     
     original_data = pd.read_csv(f"pavei/lesson{lesson}.csv")
     print(original_data)
     to_learn = original_data.to_dict(orient="records")
 else:
     to_learn = data.to_dict(orient="records")
-# data = pd.read_csv("./data/words_to_learn.csv")
-# word_dict = {row.Norsk:row.English for (index, row) in df.iterrows()}
-# spits out a list of dictionaries containing Norsk word and english translation
-# print(word_dict)
 
 #------------------------ Generating a Norsk word ----------
 index = random.choice(range(len(to_learn)))
+
 def next_card():
     
-    global current_card, index
+    global current_card, index, cur_text
     index = random.choice(range(len(to_learn)))
 
     current_card = to_learn[index]
@@ -45,22 +43,6 @@ def next_card():
     canvas.itemconfig(card_word, text=current_card[cur_text], fill="black")
     canvas.itemconfig(card_background, image=card_front_img)
    
-
-# def prev_card():
-#     #choose the current card by index
-    
-#     global current_card, index
-#     index -= 1
-#     if index <= 0:
-#         return
-#     current_card = to_learn[index]
-
-#     # choose random language
-#     cur_text = random.choice(["EN", 'NO'])
-#     canvas.itemconfig(card_title, text = f"{cur_text}_{index}", fill="black")
-#     canvas.itemconfig(card_word, text=current_card[cur_text], fill="black")
-#     canvas.itemconfig(card_background, image=card_front_img)
-
 
 def flip_to_en():
     global index
@@ -77,6 +59,23 @@ def flip_to_no():
     canvas.itemconfig(card_background, image=card_front_img)
     # canvas.itemconfig()
 
+def play_sound():
+    global index
+    cur_text = "NO"
+    # Create a gTTS object
+    tts = gTTS(current_card[cur_text], lang = cur_text.lower())
+
+    # Save the audio as a byte array in memory using BytesIO
+    audio_bytes = BytesIO()
+    tts.write_to_fp(audio_bytes)
+    audio_bytes.seek(0)
+
+    # Load the audio from the byte array using AudioSegment
+    audio = AudioSegment.from_file(audio_bytes, format="mp3")
+
+    # Play the audio using pydub
+    play(audio)
+
 def is_known():
     to_learn.remove(current_card)
     print(len(to_learn))
@@ -84,6 +83,8 @@ def is_known():
     data.to_csv("pavei/words_to_learn.csv", index=False)
     # index = false discrads the index numbers
     next_card()
+
+
 #------------------------ FlashCard UI Setup -------------------------------
 
 window = Tk()
@@ -103,8 +104,8 @@ card_word = canvas.create_text(400, 263, text="Word", font=("Ariel", 20, "bold")
 # canvas should go in the middle
 canvas.grid(row=0, column=0, columnspan=4)
 
-left_image = PhotoImage(file="./images/arrow_left_resized.png")
-unknown_button = Button(image=left_image, command = is_known)
+left_image = PhotoImage(file="./images/speaker.png")
+unknown_button = Button(image=left_image, command = play_sound)
 unknown_button.grid(row=1, column=0, sticky="W")
 
 right_image = PhotoImage(file="./images/arrow_right_resized.png")
