@@ -26,7 +26,7 @@ Click on the Flag icon to see what it is in the language of interest<br>
 For example, click on the USA flag, you will see this: <br>
 <br>
 
-<img src="./images/EN_sentence.png">
+<img src="./images/EN_example.png">
 
 <br>
 The right arrow icon is for the next card. It can be randomly chose what language the sentence can be displayed.<br>
