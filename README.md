@@ -10,7 +10,7 @@ Or it can be run randomly to test the vocab/ word choice/ grammar.  <br>
 
 1. Open the terminal on your computer.
 2. Navigate to the directory where you want to clone the repository.
-3. Type git clone https://github.com/Rosienguyen/Norwegian-Flashcard-via-Python.git and press Enter.
+3. Type `git clone https://github.com/Rosienguyen/Norwegian-Flashcard-via-Python.git` and press Enter.
 
 - Run the flashcard `flashcard.py` in your IDE/Terminal. <br>
 1. Make sure that the directory is the path to the repository/folder.<br>
