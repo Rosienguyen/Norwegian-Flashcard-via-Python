@@ -6,22 +6,28 @@ The card can be run sequentially at the first stage to go through all the senten
 Or it can be run randomly to test the vocab/ word choice/ grammar.  <br>
 
 # Instructions
-After cloning/download the repository to your computer, you can run the file `flashcard.py` in your IDE/Terminal. <br>
-Make sure that the directory is the path to the repository/folder.<br>
-In Terminal, you will type this `python flashcard.py`<br>
-After that, type the lesson you wanna study. i.e: 16 and press ENTER <br>
+- Clone/download the repository to your computer as the following steps: 
+
+1. Open the terminal on your computer.
+2. Navigate to the directory where you want to clone the repository.
+3. Type git clone https://github.com/Rosienguyen/Norwegian-Flashcard-via-Python.git and press Enter.
+
+- Run the flashcard `flashcard.py` in your IDE/Terminal. <br>
+1. Make sure that the directory is the path to the repository/folder.<br>
+2. In Terminal, you will type this `python flashcard.py`<br>
+3. Type the lesson you wanna study. i.e: 16 and press ENTER <br>
 
 You'll see a card like this <br>
 <br>
 
-<img src="./NO_sentence.png">
+<img src="./images/NO_example.png">
 
 Click on the Flag icon to see what it is in the language of interest<br>
 For example, click on the USA flag, you will see this: <br>
 <br>
 
-<img src="./EN_sentence.png">
+<img src="./images/EN_sentence.png">
 
 <br>
 The right arrow icon is for the next card. It can be randomly chose what language the sentence can be displayed.<br>
-The left arrow icon is for saving the sentence to study later, if you fail to explain it in the language you want. 
+The speaker icon is to play the Norwegian sound. 
