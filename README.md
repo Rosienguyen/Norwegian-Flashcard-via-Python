@@ -15,7 +15,9 @@ Or it can be run randomly to test the vocab/ word choice/ grammar.  <br>
 - Run the flashcard `flashcard.py` in your IDE/Terminal. <br>
 1. Make sure that the directory is the path to the repository/folder.<br>
 2. In Terminal, you will type this `python flashcard.py`<br>
-3. Type the lesson you wanna study. i.e: 16 and press ENTER <br>
+3. There are two questions popping up: 
+    - The first one is: Choose between (pavei, stein), you should type either "pavei" or "stein". ie, you type: pavei
+    - The second question is: Lesson to study. You should type the lesson you wanna study. i.e 16 and press ENTER <br>
 
 You'll see a card like this <br>
 <br>
