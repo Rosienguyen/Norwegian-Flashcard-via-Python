@@ -9,19 +9,20 @@ import random
 from tkinter import *
 to_learn = {}
 current_card = {}
+source = input("Choose between (pavei, stein): ")
 
 # if you like to have it random, you can use this code
 # lesson = random.choice(range(2,17))
 
 # if you like to have it selected, you should use this code
-lesson = input()
+lesson = input("Lesson to study:")
 
 
 try: # try running this line of code
     data = pd.read_csv("words_to_learn.csv")
 except FileNotFoundError:
     
-    original_data = pd.read_csv(f"pavei/lesson{lesson}.csv")
+    original_data = pd.read_csv(f"{source}/lesson{lesson}.csv")
     print(original_data)
     to_learn = original_data.to_dict(orient="records")
 else:
