@@ -89,7 +89,7 @@ def is_known():
 #------------------------ FlashCard UI Setup -------------------------------
 
 window = Tk()
-window.title(f"Flashcard for Lesson {lesson}")
+window.title(f"Flashcard from {source} for Lesson {lesson}")
 window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
 # flip_timer = window.after(3000, func=flip_card) # 3000 milliseocnds = 3 seconds
 
