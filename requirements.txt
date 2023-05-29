@@ -1,0 +1,7 @@
+# gTTS==2.3.1
+pandas
+io
+pydub
+gtts
+tkinter
+googletrans
