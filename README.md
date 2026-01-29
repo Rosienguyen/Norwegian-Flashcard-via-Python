@@ -12,9 +12,9 @@ Or it can be run randomly to test the vocab/ word choice/ grammar.  <br>
 2. Navigate to the directory where you want to clone the repository.
 3. Type `git clone https://github.com/Rosienguyen/Norwegian-Flashcard-via-Python.git` and press Enter.
 
-- Run the flashcard `flashcard.py` in your IDE/Terminal. <br>
+- Run the flashcard `flashcard_no.py` in your IDE/Terminal. <br>
 1. Make sure that the directory is the path to the repository/folder.<br>
-2. In Terminal, you will type this `python flashcard.py`<br>
+2. In Terminal, you will type this `python flashcard_no.py`<br>
 3. There are two questions popping up: 
     - The first one is: Choose between (pavei, stein), you should type either "pavei" or "stein". ie, you type: pavei
     - The second question is: Lesson to study. You should type the lesson you wanna study. i.e 16 and press ENTER <br>
